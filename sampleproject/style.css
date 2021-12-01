@@ -1,0 +1,54 @@
+.cardbody{
+    border: 5px solid black;
+    padding: 5%;
+    margin: 10%;
+    font-size: 25px;
+    border-radius: 5%;
+    text-align: center;
+}
+button{
+    background-color: indianred;
+    color: khaki;
+    padding: 5%;
+}
+h3{
+    color: black;
+}
+s{
+    color: indianred;
+}
+.card{
+    display:flex;
+    flex-wrap: wrap;
+}
+img{
+    border-radius: 5px;
+    padding: 2%;
+
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardbody{
+        width: 95%;
+        font-size: 30px;
+    }
+    button{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .card{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .cardbody{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+}
